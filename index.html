@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/3fd66e39ee.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              headerbg: "#FFFBF0",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="container p-11 mx-auto bg-headerbg">
+      <nav class="mx-auto">
+        <div class="grid grid-cols-2 grid-rows-1">
+          <div>
+            <a class="" href="#">
+              <img class="h-20 w-72" src="icons/Logo.png" alt="" />
+            </a>
+            <button>
+              <span class=""></span>
+            </button>
+          </div>
+          <div>
+            <div>
+              <ul class="flex gap-8" aria-label="">
+                <li><a class="" aria-current="page" href="#home">Home</a></li>
+                <li><a class="" href="#prod">Product</a></li>
+                <li><a class="" href="#ab">About us</a></li>
+                <li><a class="" href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="grid md:grid-cols-2 gap-4 items-center">
+        <div>
+          <img src="images/Group 33092.png" alt="" />
+        </div>
+        <div class="">
+          <h1 class="text-5xl font-bold uppercase pb-4">
+            <span class="text-orange-500">Nike React </span>
+            <br />
+            <span>Infinity Run 2</span>
+          </h1>
+          <p class="pb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            enim optio necessitatibus cumque exercitationem sit molestiae hic et
+            excepturi? Earum.
+          </p>
+          <button
+            class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+          >
+            <i class="fa-solid fa-cart-shopping"></i> buy now
+          </button>
+        </div>
+      </section>
+    </header>
+    <main class="bg-slate-200 container mx-auto">
+      <h1 class="uppercase text-5xl font-bold pt-8 pl-5">casoul shoes</h1>
+      <section class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 p-8" id="home">
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-400 p-8 rounded-xl"
+              src="images/image 5.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-400 p-8 rounded-xl"
+              src="images/Daco_1703273 1.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-400 p-8 rounded-xl"
+              src="images/pngegg 1.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 class="uppercase text-5xl font-bold pl-5">Formal shoes</h1>
+      <section class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 p-8" id="prod">
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-100 p-6 rounded-xl"
+              src="images/Mask Group.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-100 p-6 rounded-xl"
+              src="images/Rectangle 38.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 rounded-xl bg-slate-50">
+          <div class="p-8">
+            <img
+              class="bg-slate-100 p-6 rounded-xl"
+              src="images/Rectangle 39.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8">
+            <h1 class="text-4xl font-semibold">Nike Shoe</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <div class="grid grid-cols-2 gap-4">
+              <h1 class="text-3xl text-orange-500">$234</h1>
+              <button
+                class="pb-4 h-10 w-40 rounded-lg bg-blue-700 text-white p-3 uppercase font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i> buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto pt-10 sm:bg-white" id="ab">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="md:flex gap-3 bg-slate-50 rounded-xl items-center">
+            <img class="h-24 w-24" src="icons/image 12.png" alt="" />
+            <div>
+              <h1 class="text-4xl">Find the Perfect Fit</h1>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body
+              </p>
+            </div>
+          </div>
+          <div class="row-span-3 sm:rounded-xl">
+            <img src="icons/XMLID 1.png" alt="" srcset="" />
+          </div>
+          <div class="md:flex gap-3 bg-slate-50 rounded-xl items-center">
+            <img class="h-24 w-24" src="icons/image 13.png" alt="" />
+            <div>
+              <h1 class="text-4xl">Free Exchanges</h1>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body
+              </p>
+            </div>
+          </div>
+          <div class="md:flex gap-3 bg-slate-50 rounded-xl items-center">
+            <img class="h-24 w-24" src="icons/image 14.png" alt="" />
+            <div>
+              <h1 class="text-4xl">Contact Our Seller</h1>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
